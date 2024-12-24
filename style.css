@@ -71,10 +71,13 @@ h6 {
 
 /* PROJECT CSS */
 
+li {
+	display: flex;
+}
+
 .dashboard {
 	display: grid;
 	grid-template-columns: 1fr 5fr;
-	grid-template-rows: 1fr 5fr;
 	gap: 15px;
 }
 
@@ -87,6 +90,14 @@ h6 {
 
 .navbar {
 	background-color: skyblue;
+}
+
+.nav-profile>img {
+	height: 50px;
+}
+
+.welcome>img {
+	height: 50px;
 }
 
 .dash-body {
@@ -117,6 +128,10 @@ h6 {
 .dash-body {
 	display: grid;
 	grid-template-columns: 3fr 1fr;
+}
+
+.dash-body>div {
+	padding: 15px;
 }
 
 .projects {
