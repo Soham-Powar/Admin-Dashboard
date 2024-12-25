@@ -87,7 +87,7 @@ li>img,
 .dashboard {
 	display: grid;
 	grid-template-columns: 1fr 5fr;
-	grid-template-rows: 230px 720px;
+	grid-template-rows: 160px 720px;
 	color: white;
 	background-color: #E2E8F0;
 }
@@ -168,7 +168,8 @@ li {
 	color: white;
 	font-weight: bold;
 	border-radius: 14px;
-	width: 100px;
+	flex: 1;
+	height: 35px;
 }
 
 .dash-body {
@@ -262,4 +263,12 @@ li {
 .nav-bottom {
 	display: grid;
 	background-color: white;
+	grid-template-columns: 3fr 2fr;
+	align-items: center;
+}
+
+.welcome {
+	display: flex;
+	gap: 10px;
+	margin-left: 100px;
 }
