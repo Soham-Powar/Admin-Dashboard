@@ -190,12 +190,19 @@ li {
 	grid-area: 1/2/3/3;
 	margin: 15px;
 	border-radius: 10px;
+	background-color: white;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
 }
 
 .trending {
 	grid-area: 3/2/5/3;
 	margin: 15px;
 	border-radius: 10px;
+	background-color: white;
+	border-radius: 15px;
 }
 
 .projects-grid {
@@ -205,6 +212,7 @@ li {
 
 .projects-grid>div {
 	height: 180px;
+	color: #363636;
 	margin: 10px;
 	padding: 30px;
 	background-color: white;
@@ -271,4 +279,27 @@ li {
 	display: flex;
 	gap: 10px;
 	margin-left: 100px;
+}
+
+.trending img {
+	height: 60px;
+	border-radius: 50%;
+}
+
+.trending>div {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.user-details :first-child {
+	font-weight: bold;
+}
+
+.user-details :last-child,
+.announcements>div :last-child {
+	color: #636363;
+	font-size: 15px;
 }
